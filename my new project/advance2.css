@@ -1,0 +1,13 @@
+/*.container p:nth-child(2) {     /*you also make even no of child red
+    color:rgb(246, 21, 21);
+} */
+p::before {
+    content: "ok";
+    background-color: blueviolet;
+    color:#fff;
+}
+p::after {
+    content: "bie";
+    background-color: rgb(43, 226, 208);
+    color: #fff;
+}

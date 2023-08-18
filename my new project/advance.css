@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: #04ff00;
+}  
+a:visited {
+    color: red;
+}
+a:active {
+    color: blue;/*means when u pressed it it color changes during pressed*/
+}
+a:hover {
+    color: yellow;
+}

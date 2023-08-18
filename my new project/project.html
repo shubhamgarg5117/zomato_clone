@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="proj1.css" />
+    <title>project</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="logo.png" alt="logo" class="navbar_logo" />
+            </div>
+            <div class="navbar__nav__item">
+                <button class="nav_item">Order Food</button>
+            </div> <!--we use navbar nav item just a name,good practice-->
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero__container">
+            <div class="hero_image_container">
+                <img src="food.png" alt="hero image" class="hero_image"/>
+            </div>
+            <div class="hero_description">
+                <h1 class="hero_text">order food from favourite restaurant near you.</h1>
+                <button class="nav_item">order Now</button>
+            </div>
+        </section>
+
+        <!--now explore menu-->
+        <section class="explore__menue__container">
+            <h1 class="menue_text">Explore Our Menu</h1>
+            <div class="explore_menue_gradient_bg">
+                
+            </div>
+            <div class="menue_lists">
+                <div class="food_card">
+                    <div class="food_card_image">
+                        <img src="burger.png.jpg" alt="burger" class="food_image"/>
+                    </div>
+                    <div class="food_card_text"></div>
+                    <h3 class="food_title">burger</h3>
+                    <p>burger king, Mcdonalds, burger place <span style="color: #d83a56;">+3</span></p>
+                </div>
+                <div class="food_card" id="pizza_card"><!--here we use id bcz we r going to reright css-->
+                    <div class="food_card_image">
+                        <img src="pizza.jpg.jpg" alt="pizza" class="food_image"/>
+                    </div>
+                    <div class="food_card_text"></div>
+                    <h3 class="food_title">Pizza</h3>
+                    <p>pizza hut, Domino's, Mani's pizza <span style="color: #d83a56;">+5</span></p>
+                </div>
+                <div class="food_card">
+                    <div class="food_card_image">
+                        <img src="ice cream.jpg.jpg" alt="ice cream" class="food_image"/>
+                    </div>
+                    <div class="food_card_text"></div>
+                    <h3 class="food_title">Ice Cream</h3>
+                    <p>jaini's,havmour, devnarayan <span style="color: #d83a56;">+7</span></p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
